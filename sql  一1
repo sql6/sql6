@@ -1,6 +1,10 @@
 ORDER BY：默认升 ，降：DESC
 ORDER BY dep.department_name DESC
 
+GROUP BY 和 ORDER BY一起使用时，ORDER BY要在GROUP BY的后面。
+GROUP BY 和 ORDER BY一起使用时，order by 的列，必须是出现在group by 子句里的列 
+
+
 
 GROUP BY dep.department_name 
 --order by 的列，必须是出现在group by 子句里的列  
