@@ -1,1 +1,11 @@
+ORDER BY：默认升 ，降：DESC
+ORDER BY dep.department_name DESC
 
+
+GROUP BY dep.department_name 
+--order by 的列，必须是出现在group by 子句里的列  
+ORDER BY dep.department_name DESC
+
+
+group by a，b，c       则a，b，c三个字段是按照 : 先按a字段 ,再按b，最后按c
+order  by a，b，c   也是。
